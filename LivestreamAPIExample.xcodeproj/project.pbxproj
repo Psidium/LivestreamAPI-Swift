@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		47A1B2B619FA817100C20887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A1B2B519FA817100C20887 /* AppDelegate.swift */; };
-		47A1B2B819FA817100C20887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A1B2B719FA817100C20887 /* ViewController.swift */; };
 		47A1B2BB19FA817100C20887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47A1B2B919FA817100C20887 /* Main.storyboard */; };
 		47A1B2BD19FA817100C20887 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A1B2BC19FA817100C20887 /* Images.xcassets */; };
 		47A1B2C019FA817100C20887 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A1B2BE19FA817100C20887 /* LaunchScreen.xib */; };
 		47A1B2CC19FA817100C20887 /* LivestreamAPIExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A1B2CB19FA817100C20887 /* LivestreamAPIExampleTests.swift */; };
+		47A1B2D719FA81A700C20887 /* PSILivestreamAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A1B2D519FA81A700C20887 /* PSILivestreamAPI.swift */; };
+		47A1B2D819FA81A700C20887 /* PSIVideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A1B2D619FA81A700C20887 /* PSIVideoData.swift */; };
+		47A1B2DA19FA81E000C20887 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A1B2D919FA81E000C20887 /* SwiftyJSON.swift */; };
+		47A1B2DC19FA82CB00C20887 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A1B2DB19FA82CB00C20887 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		47A1B2B019FA817100C20887 /* LivestreamAPIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivestreamAPIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A1B2B419FA817100C20887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47A1B2B519FA817100C20887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47A1B2B719FA817100C20887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		47A1B2BA19FA817100C20887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47A1B2BC19FA817100C20887 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		47A1B2BF19FA817100C20887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		47A1B2C519FA817100C20887 /* LivestreamAPIExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivestreamAPIExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A1B2CA19FA817100C20887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47A1B2CB19FA817100C20887 /* LivestreamAPIExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivestreamAPIExampleTests.swift; sourceTree = "<group>"; };
+		47A1B2D519FA81A700C20887 /* PSILivestreamAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSILivestreamAPI.swift; sourceTree = "<group>"; };
+		47A1B2D619FA81A700C20887 /* PSIVideoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSIVideoData.swift; sourceTree = "<group>"; };
+		47A1B2D919FA81E000C20887 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		47A1B2DB19FA82CB00C20887 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +83,12 @@
 		47A1B2B219FA817100C20887 /* LivestreamAPIExample */ = {
 			isa = PBXGroup;
 			children = (
+				47A1B2D519FA81A700C20887 /* PSILivestreamAPI.swift */,
+				47A1B2D619FA81A700C20887 /* PSIVideoData.swift */,
+				47A1B2D919FA81E000C20887 /* SwiftyJSON.swift */,
 				47A1B2B519FA817100C20887 /* AppDelegate.swift */,
-				47A1B2B719FA817100C20887 /* ViewController.swift */,
 				47A1B2B919FA817100C20887 /* Main.storyboard */,
+				47A1B2DB19FA82CB00C20887 /* TableViewController.swift */,
 				47A1B2BC19FA817100C20887 /* Images.xcassets */,
 				47A1B2BE19FA817100C20887 /* LaunchScreen.xib */,
 				47A1B2B319FA817100C20887 /* Supporting Files */,
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47A1B2B819FA817100C20887 /* ViewController.swift in Sources */,
+				47A1B2DC19FA82CB00C20887 /* TableViewController.swift in Sources */,
+				47A1B2D719FA81A700C20887 /* PSILivestreamAPI.swift in Sources */,
+				47A1B2D819FA81A700C20887 /* PSIVideoData.swift in Sources */,
+				47A1B2DA19FA81E000C20887 /* SwiftyJSON.swift in Sources */,
 				47A1B2B619FA817100C20887 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
